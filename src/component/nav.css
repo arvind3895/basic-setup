@@ -1,0 +1,17 @@
+.nav-bar {
+  background-color: bisque;
+}
+.nav-bar .nav-items-list {
+  display: flex;
+}
+.nav-bar .nav-items-list .nav-items {
+  list-style: none;
+  padding: 8px 16px;
+}
+.nav-bar .nav-items-list .nav-items:first {
+  padding: 8px 16px 8px 0;
+}
+.nav-bar .nav-items-list .nav-items a {
+  text-decoration: none;
+  color: #000;
+}
